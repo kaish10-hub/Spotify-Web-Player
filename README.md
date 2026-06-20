@@ -13,6 +13,7 @@ A responsive Spotify-inspired web music player built using **HTML, CSS, and Java
 * 📱 Fully responsive design for desktop, tablet, and mobile devices
 * 🎨 Modern Spotify-inspired UI
 * 📂 Dynamic playlist generation using JavaScript
+* ⚡ Vanilla JavaScript implementation (No frameworks)
 
 ## 📸 Project Preview
 
@@ -63,7 +64,7 @@ git clone https://github.com/kaish10-hub/Spotify-Web-Player.git
 2. Navigate to the project folder
 
 ```bash
-cd Spotify-Web-PLayer
+cd Spotify-Web-Player
 ```
 
 3. Start a local server
@@ -96,11 +97,15 @@ This project helped me practice:
 * Shuffle and Repeat modes
 * Playlist creation
 * Recently played section
-* User authentication
-* Backend integration
+* User authentication and personalized playlists
+* Database integration for persistent music libraries
+* Music streaming through cloud storage APIs
 
 ## 👨‍💻 Author
 
 **Mohd Kaish**
+
+- GitHub: https://github.com/kaish10-hub
+- LinkedIn: www.linkedin.com/in/mohd-kaish-b8baa71b3
 
 If you liked this project, feel free to ⭐ the repository.
