@@ -67,10 +67,7 @@ git clone https://github.com/kaish10-hub/Spotify-Web-Player.git
 cd Spotify-Web-Player
 ```
 
-3. Start a local server
-
-Using VS Code Live Server:
-
+3. Start a local server using VS Code Live Server:
 ```bash
 Right Click → Open with Live Server
 ```
