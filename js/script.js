@@ -44,7 +44,7 @@ async function getSongs(folder) {
       songUL.innerHTML +
       `<li> <img class="invert" src="img/music.svg" alt="">
                             <div class="info">
-                                <div>${song.replaceAll("%20", "")}</div>
+                                <div>${decodeURI(song)}</div>
                                 <div>Kaish</div>
                             </div>
                             <div class="playnow">
@@ -73,7 +73,8 @@ const playMusic = (track, pause = false) => {
 
   document.querySelectorAll(".songList li").forEach(li => {
     li.classList.remove("active");
-    if (li.querySelector(".info").firstElementChild.innerHTML.trim() === track){
+    const songname = li.querySelector(".info").firstElementChild.textContent.trim()
+    if (decodeURI(track) === songname){
       li.classList.add("active");
     }
   });

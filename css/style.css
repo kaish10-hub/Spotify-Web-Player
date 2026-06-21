@@ -287,7 +287,8 @@ body {
   color: black;
   padding: 0 12px;
   flex: 1;
-  width: 100px;
+  min-width: 0; 
+  max-width: 30%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -298,7 +299,9 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    width:90%;
+    gap:20px;
+    width:100%;
+    overflow:hidden;
 }
 
 .hamburger {
@@ -321,6 +324,10 @@ body {
     height: 100vh;
     position: fixed;
     top:0;
+  }
+
+  .songinfo{
+    max-width: 50%;
   }
 
   .left .close {
@@ -435,6 +442,10 @@ body {
     position:fixed;
     top:0;
     width: 100vw;
+  }
+
+  .songinfo{
+    max-width: 80%;
   }
 }
 
