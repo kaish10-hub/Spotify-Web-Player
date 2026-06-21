@@ -19,8 +19,15 @@ A responsive Spotify-inspired web music player built using **HTML, CSS, and Java
 
 This Spotify Clone recreates the core music streaming experience with a clean and responsive interface. The application dynamically loads albums and songs, provides playback controls, volume management, and seamless navigation across different playlists. The design is inspired by Spotify's modern UI while being built entirely with vanilla JavaScript, HTML, and CSS.
 
-![Spotify Clone Screenshot](./screenshots/home.png)
+## Home Screen
+![Home](./screenshots/home.png)
 
+## Mobile View
+<p align="center">
+  <img src="screenshots/sidebar.jpg" width="250"/>
+  &nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/mobile.jpg" width="250"/>
+</p>
 
 ## 🛠️ Technologies Used
 
