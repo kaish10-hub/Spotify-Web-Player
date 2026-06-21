@@ -2,6 +2,10 @@
 
 A responsive Spotify-inspired web music player built using **HTML, CSS, and JavaScript**. This project replicates the core user experience of Spotify, including dynamic playlist loading, music playback controls, album browsing, and a modern responsive interface.
 
+## 🌐 Live Demo
+
+[View Live Project](https://kaish10-hub.github.io/Spotify-Web-Player/)
+
 ## 🚀 Features
 
 * 🎶 Dynamic song loading from local folders
