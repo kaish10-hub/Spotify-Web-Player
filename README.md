@@ -6,7 +6,7 @@ A responsive Spotify-inspired web music player built using **HTML, CSS, and Java
 
 🚀 Experience the Spotify Clone live:
 
-**[View Live Project](https://kaish10-hub.github.io/Spotify-Web-Player/)**
+**[View Live Project](https://spotify-web-player-kaish.netlify.app/)**
 
 ## ✨ Features
 
